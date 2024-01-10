@@ -29,7 +29,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-^#dpfa(kn_8))63y!k%e7id_h#%1x+%=hlft)4qbpv+)2&1q(m'
 
 
 # Quick-start development settings - unsuitable for production
@@ -94,11 +94,11 @@ WSGI_APPLICATION = 'hadis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DB_NAME'),
-        'USER': env('DB_USER'),
-        'PASSWORD': env('DB_PASSWORD'),
-        'HOST': env('DB_HOST'),
-        'PORT': env('DB_PORT'),
+        'NAME': nur,
+        'USER': postgres,
+        'PASSWORD': new_password,
+        'HOST': localhost,
+        'PORT': 5432,
     }
 }
 
