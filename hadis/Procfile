@@ -1,0 +1,1 @@
+web: gunicorn hadis.wsgi --log-file -

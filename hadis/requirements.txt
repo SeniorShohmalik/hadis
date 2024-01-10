@@ -1,0 +1,5 @@
+Django
+gunicorn
+django-crispy-forms
+Pillow
+psycopg2-binary
