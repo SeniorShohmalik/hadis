@@ -94,13 +94,14 @@ WSGI_APPLICATION = 'hadis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': nur,
-        'USER': postgres,
-        'PASSWORD': new_password,
-        'HOST': localhost,
+        'NAME': 'nur',  # Replace 'nur' with your actual database name
+        'USER': 'postgres',  # Replace 'postgres' with your actual database user
+        'PASSWORD': 'new_password',  # Replace 'new_password' with your actual database password
+        'HOST': 'localhost',
         'PORT': 5432,
     }
 }
+
 
 
 # Password validation
